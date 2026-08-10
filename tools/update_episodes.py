@@ -175,9 +175,9 @@ def main():
         'audioCount':sum(1 for e in catalog if e.get('audioUrl')),
         'episodes':catalog
     }
+    if len(catalog) < 350:
+        raise SystemExit('Catalog extraction unexpectedly returned fewer than 350 episodes; existing episodes.json remains untouched.')
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f"Wrote {len(catalog)} episodes ({payload['audioCount']} with audio) to {OUT}")
-    if len(catalog) < 350:
-        raise SystemExit('Catalog extraction unexpectedly returned fewer than 350 episodes; not overwriting silently.')
 
 if __name__=='__main__': main()

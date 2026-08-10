@@ -15,35 +15,22 @@
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <div class="eyebrow">PHILIP MALONEY</div>
-      <h1>Hörtracker</h1>
-    </div>
+    <div><div class="eyebrow">PHILIP MALONEY</div><h1>Hörtracker</h1></div>
     <button id="randomBtn" class="icon-btn" title="Zufälliger Fall">🎲</button>
   </header>
 
   <main>
     <section class="hero card">
-      <div class="progress-copy">
-        <strong id="progressText">0 / 0 gehört</strong>
-        <span id="progressPct">0 %</span>
-      </div>
+      <div class="progress-copy"><strong id="progressText">0 / 0 gehört</strong><span id="progressPct">0 %</span></div>
       <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
-      <div class="stats">
-        <div><b id="openCount">0</b><span>offen</span></div>
-        <div><b id="heardCount">0</b><span>gehört</span></div>
-        <div><b id="favCount">0</b><span>Favoriten</span></div>
-      </div>
+      <div class="stats"><div><b id="openCount">0</b><span>offen</span></div><div><b id="heardCount">0</b><span>gehört</span></div><div><b id="favCount">0</b><span>Favoriten</span></div></div>
     </section>
 
     <section class="controls">
       <input id="searchInput" type="search" placeholder="Folge suchen …" autocomplete="off" />
       <select id="statusFilter" aria-label="Status filtern">
-        <option value="all">Alle</option>
-        <option value="open">Noch nicht gehört</option>
-        <option value="heard">Gehört</option>
-        <option value="fav">Favoriten</option>
-        <option value="audio">Audio verfügbar</option>
+        <option value="all">Alle</option><option value="open">Noch nicht gehört</option><option value="heard">Gehört</option><option value="fav">Favoriten</option>
+        <option value="direct">Direkt abspielbar</option><option value="private">Privates Audio</option><option value="youtube">YouTube</option>
       </select>
       <select id="yearFilter" aria-label="Jahr filtern"><option value="all">Alle Jahre</option></select>
     </section>
@@ -54,11 +41,7 @@
 
     <section class="card tools">
       <h2>Daten</h2>
-      <div class="tool-row">
-        <button id="exportBtn">Export</button>
-        <label class="buttonlike">Import<input id="importInput" type="file" accept="application/json,.json" hidden /></label>
-        <button id="resetBtn" class="danger">Zurücksetzen</button>
-      </div>
+      <div class="tool-row"><button id="exportBtn">Export</button><label class="buttonlike">Import<input id="importInput" type="file" accept="application/json,.json" hidden /></label><button id="resetBtn" class="danger">Zurücksetzen</button></div>
       <p class="muted">Der Hörfortschritt wird nur auf diesem Gerät gespeichert. Exportiere gelegentlich ein Backup.</p>
     </section>
   </main>
@@ -66,19 +49,20 @@
   <dialog id="episodeDialog">
     <form method="dialog" class="dialog-card">
       <button class="dialog-close" value="cancel" aria-label="Schliessen">✕</button>
-      <div class="eyebrow" id="dialogMeta"></div>
-      <h2 id="dialogTitle"></h2>
+      <div class="eyebrow" id="dialogMeta"></div><h2 id="dialogTitle"></h2>
+      <div id="dialogSources" class="source-selector"></div>
+      <div id="dialogPlayer" class="dialog-audio"></div>
+      <div id="dialogLinks" class="dialog-links"></div>
       <label class="checkline"><input id="dialogHeard" type="checkbox" /> Gehört</label>
       <label>Gehört am<input id="dialogDate" type="date" /></label>
       <label>Bewertung<select id="dialogRating"><option value="">–</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
       <label>Notizen<textarea id="dialogNotes" rows="4" placeholder="Eigene Notizen …"></textarea></label>
       <label class="checkline"><input id="dialogFav" type="checkbox" /> Favorit</label>
-      <div id="dialogAudio" class="dialog-audio"></div>
-      <a id="dialogLink" class="primary-link" target="_blank" rel="noopener">↗ Bei SRF öffnen</a>
       <button id="dialogSave" value="default" class="save-btn">Speichern</button>
     </form>
   </dialog>
 
+  <script src="./config.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

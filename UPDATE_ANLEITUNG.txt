@@ -1,19 +1,23 @@
-MALONEY TRACKER – UPDATE AUF V2
+MALONEY TRACKER V3 – UPDATE
+===========================
 
-1. Inhalt dieses ZIP in dein Repository hochladen und vorhandene Dateien ersetzen.
-   Wichtig: Auch .github/workflows/update-episodes.yml und tools/update_episodes.py hochladen.
+1. Dieses ZIP entpacken.
+2. Alle enthaltenen Dateien in den ROOT deines GitHub-Repositories hochladen.
+3. Vorhandene Dateien ersetzen.
+4. Darauf achten, dass .github/workflows/update-episodes.yml vorhanden ist.
+5. GitHub -> Actions -> Maloney-Folgen aktualisieren -> Run workflow.
+6. GitHub Pages neu laden.
 
-2. GitHub -> Actions -> "Maloney-Folgen aktualisieren" -> Run workflow.
+NEU IN V3
+---------
+- Quellenpriorität: SRF -> privates Audio -> YouTube.
+- Eigene Audiodateien werden von einem separaten HTTPS-Server gestreamt.
+- YouTube wird über den offiziellen eingebetteten Player abgespielt.
+- private-audio.json und youtube.json werden beim wöchentlichen SRF-Update NICHT überschrieben.
+- Tool zur automatischen Zuordnung eines lokalen Audio-Ordners:
+  tools/build_private_audio_manifest.py
 
-3. Falls der Workflow beim "git push" mit Permission-Fehler abbricht:
-   Settings -> Actions -> General -> Workflow permissions -> Read and write permissions -> Save
-   Danach Workflow nochmals starten.
-
-4. Nach erfolgreichem Lauf sollte episodes.json deutlich größer sein und die App rund 404 reguläre Folgen anzeigen.
-
-5. Auf dem iPhone die PWA einmal komplett schließen und neu öffnen. Falls die alte Version aus dem Cache erscheint, Safari-Seite neu laden bzw. die PWA kurz entfernen und erneut zum Home-Bildschirm hinzufügen.
-
-Audio:
-- Grün markierte Audio-Folgen sind aktuell direkt in der App abspielbar.
-- Der Stream kommt direkt vom offiziellen SRF-Medienserver.
-- Es werden keine MP3-Dateien in GitHub gespeichert.
+WICHTIG
+-------
+Keine privaten/urheberrechtlich geschützten Audiodateien in das öffentliche GitHub-Repository hochladen.
+Keine Passwörter, API-Tokens oder geheimen URLs in config.js speichern.
