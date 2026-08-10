@@ -1,0 +1,19 @@
+MALONEY TRACKER – UPDATE AUF V2
+
+1. Inhalt dieses ZIP in dein Repository hochladen und vorhandene Dateien ersetzen.
+   Wichtig: Auch .github/workflows/update-episodes.yml und tools/update_episodes.py hochladen.
+
+2. GitHub -> Actions -> "Maloney-Folgen aktualisieren" -> Run workflow.
+
+3. Falls der Workflow beim "git push" mit Permission-Fehler abbricht:
+   Settings -> Actions -> General -> Workflow permissions -> Read and write permissions -> Save
+   Danach Workflow nochmals starten.
+
+4. Nach erfolgreichem Lauf sollte episodes.json deutlich größer sein und die App rund 404 reguläre Folgen anzeigen.
+
+5. Auf dem iPhone die PWA einmal komplett schließen und neu öffnen. Falls die alte Version aus dem Cache erscheint, Safari-Seite neu laden bzw. die PWA kurz entfernen und erneut zum Home-Bildschirm hinzufügen.
+
+Audio:
+- Grün markierte Audio-Folgen sind aktuell direkt in der App abspielbar.
+- Der Stream kommt direkt vom offiziellen SRF-Medienserver.
+- Es werden keine MP3-Dateien in GitHub gespeichert.

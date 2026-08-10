@@ -1,26 +1,20 @@
 # Philip Maloney – Hörtracker (PWA)
 
-Diese Dateien sind für **GitHub Pages** vorbereitet. Die App läuft vollständig statisch und speichert Hörstatus, Datum, Bewertung, Favoriten und Notizen lokal im Browser des Geräts.
+Statische GitHub-Pages-PWA mit lokalem Hörfortschritt und direktem SRF-Audio für aktuell verfügbare Folgen.
 
-## GitHub Pages veröffentlichen
+## Einmaliges Update nach dem Upload
 
-1. Auf GitHub ein neues Repository anlegen, z. B. `maloney-tracker`.
-2. **Den Inhalt dieses Ordners** in die oberste Ebene des Repositorys hochladen – also `index.html`, `app.js`, `styles.css` usw. direkt ins Repository, nicht den übergeordneten ZIP-Ordner.
-3. Auf GitHub im Repository **Settings → Pages** öffnen.
-4. Unter **Build and deployment** als Source **Deploy from a branch** wählen.
-5. Branch **main** und Ordner **/(root)** wählen und speichern.
-6. GitHub zeigt danach die Pages-Adresse an, typischerweise `https://DEINNAME.github.io/maloney-tracker/`.
-7. Die Adresse auf dem iPhone in **Safari** öffnen.
-8. Teilen → **Zum Home-Bildschirm** → Hinzufügen.
+1. Alle Dateien dieses Pakets in den Root des Repositories hochladen; die Ordner `.github/workflows` und `tools` müssen erhalten bleiben.
+2. GitHub: **Actions** → **Maloney-Folgen aktualisieren** → **Run workflow**.
+3. Der Workflow liest die offizielle Folgenübersicht von Roger Graf und die aktuell bei SRF verfügbaren Maloney-Episoden aus und erzeugt `episodes.json`.
+4. Nach dem Commit durch den Workflow veröffentlicht GitHub Pages die aktualisierte Datei automatisch. Falls GitHub den Push des Workflows blockiert: **Settings → Actions → General → Workflow permissions → Read and write permissions** aktivieren.
 
-## Aktualisieren
+Der Workflow läuft zusätzlich jeden Montagmorgen automatisch. Damit werden neue SRF-Ausstrahlungen und auslaufende/verfügbare Audio-Links nachgeführt.
 
-Wenn Dateien im Repository ersetzt werden, aktualisiert der Service Worker den App-Cache. Bei bereits installierter App ggf. einmal komplett schließen und erneut öffnen.
+## Audio
 
-## Daten / Backup
+Für aktuell bei SRF verfügbare Folgen wird die öffentliche SRF-Media-Composition aufgelöst. Der Audioplayer streamt die Mediendatei direkt vom SRF-Server; im Repository werden keine Audiodateien gespeichert. Ist eine Folge nicht mehr online verfügbar, zeigt die App keinen Player und bietet stattdessen den Archiv-/SRF-Link an.
 
-Der Hörfortschritt wird in `localStorage` gespeichert und bleibt auf dem jeweiligen Browser/Gerät. Mit **Export** wird eine JSON-Backup-Datei erzeugt; über **Import** kann sie wieder eingelesen werden.
+## Datenschutz / Daten
 
-## Wichtig
-
-Die aktuell enthaltene Folgenliste ist die bisherige Startliste. Neue oder weitere Folgen können später in `app.js` im Array `SEED` ergänzt werden.
+`Gehört`, Datum, Bewertung, Favorit und Notizen liegen ausschließlich im LocalStorage des verwendeten Browsers. Über **Export** kann ein JSON-Backup erstellt und mit **Import** wieder eingelesen werden.
