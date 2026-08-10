@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'episodes.json'
 GRAF_URL = 'https://www.rogergraf.ch/hoerspiele'
 SRF_LIST = 'https://www.srf.ch/aron/api/audio/shows/A00361/latestEpisodes?page={page}'
