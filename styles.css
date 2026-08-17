@@ -15,3 +15,14 @@ main{padding:14px 14px calc(34px + env(safe-area-inset-bottom));max-width:820px;
 
 .data-status{font-size:12px;color:var(--muted);padding:0 4px 4px}.inline-player{margin-top:12px}.inline-player audio,.dialog-audio audio{width:100%;height:42px}.inline-player.compact audio{max-width:520px}.audio-dot{color:var(--good);font-size:10px;vertical-align:middle;margin-left:4px}.epno{color:var(--accent);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}.dialog-audio{display:grid;gap:6px}.audio-note{font-size:11px}
 .source-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.source-badge{font-size:10px;padding:3px 7px;border-radius:999px;border:1px solid var(--line);color:#d7dce5}.source-srf{border-color:#496b57;color:#9ad1a7}.source-private{border-color:#705f39;color:#e2c47d}.source-youtube{border-color:#724747;color:#e7a1a1}.source-selector{display:flex;gap:7px;flex-wrap:wrap}.source-btn{border-radius:10px;padding:8px 10px;border:1px solid var(--line);background:var(--panel2);color:var(--text);cursor:pointer}.source-btn.active{border-color:var(--accent);box-shadow:0 0 0 2px rgba(216,177,92,.1)}.player-label{font-size:11px;color:var(--muted);margin-top:4px}.youtube-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}.youtube-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.dialog-links{display:flex;gap:8px;flex-wrap:wrap}.secondary-link{border-radius:10px;padding:8px 10px;border:1px solid var(--line);background:var(--panel2);color:var(--text);text-decoration:none;font-size:13px}
+
+.private-locked{margin-top:10px;border:1px dashed #705f39;border-radius:12px;padding:10px 12px;color:#e2c47d;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.private-locked small{color:var(--muted);width:100%}
+.private-loading{border:1px solid var(--line);border-radius:12px;padding:14px;color:var(--muted)}
+.private-auth-error{display:grid;gap:8px;border:1px solid #704242;border-radius:12px;padding:14px;color:#f1caca}
+.private-auth-error span{font-size:13px;color:var(--muted)}
+.private-auth-error button{justify-self:start;border-radius:10px;padding:8px 10px;border:1px solid var(--line);background:var(--panel2);color:var(--text)}
+.private-session-note{font-size:11px;color:#9ad1a7;margin-top:5px}
+
+.source-private{border-color:#866a37}
+.private-session-note{font-size:11px;color:#9ad1a7;margin-top:5px}
