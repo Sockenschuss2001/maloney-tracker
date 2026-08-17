@@ -1,11 +1,11 @@
-const CACHE = 'maloney-tracker-v6-20260817';
+const CACHE = 'maloney-tracker-v7-20260817';
 
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css?v=6',
   './config.js?v=6',
-  './app.js?v=6',
+  './app.js?v=7',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png',

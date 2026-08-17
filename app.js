@@ -54,8 +54,15 @@ function enrichSources(e){
     objectKey:priv.objectKey,
     direct:true
   });
-  const yt=(YOUTUBE.entries||{})[e.id];
-  if(yt?.videoId) sources.push({type:'youtube',label:yt.label||'YouTube',videoId:yt.videoId,direct:false});
+  const yt=(YOUTUBE.entries||{})[e.id] || (e.number!=null ? (YOUTUBE.byNumber||{})[String(e.number)] : null);
+  if(yt?.videoId) sources.push({
+    type:'youtube',
+    label:yt.label||'YouTube',
+    videoId:yt.videoId,
+    playlistVideoIds:Array.isArray(yt.playlistVideoIds)?yt.playlistVideoIds:[],
+    kind:yt.kind||'video',
+    direct:false
+  });
   const order=CFG.sourcePriority||['srf','private','youtube'];
   sources.sort((a,b)=>order.indexOf(a.type)-order.indexOf(b.type));
   return {...e,sources};
@@ -157,7 +164,11 @@ async function privatePlayer(s){
 function youtubeEmbed(s){
   if(!s?.videoId)return '';
   const host=CFG.youtubePrivacyEnhanced===false?'www.youtube.com':'www.youtube-nocookie.com';
-  return `<div class="youtube-wrap"><iframe src="https://${host}/embed/${escAttr(s.videoId)}?playsinline=1&rel=0" title="YouTube-Player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>`;
+  const more=(s.playlistVideoIds||[]).filter(Boolean);
+  const params=new URLSearchParams({playsinline:'1',rel:'0'});
+  if(more.length)params.set('playlist',more.join(','));
+  return `<div class="youtube-wrap"><iframe src="https://${host}/embed/${escAttr(s.videoId)}?${params.toString()}" title="YouTube-Player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>
+    ${more.length?`<div class="muted youtube-scenes">${more.length+1} Szenen/Tracks in dieser Folge</div>`:''}`;
 }
 function playerFor(e, compact=false){
   const s=preferred(e);
