@@ -1,0 +1,57 @@
+name: Private Audios aktualisieren
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Einmal täglich. Nach einem Upload kann der Workflow jederzeit manuell gestartet werden.
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maloney-private-audio-manifest
+  cancel-in-progress: true
+
+jobs:
+  update-private-audio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: python -m pip install --upgrade pip boto3
+
+      - name: B2-Dateiliste lesen und Manifest erzeugen
+        env:
+          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
+          B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
+          B2_BUCKET_NAME: maloney-audio
+          B2_FILE_PREFIX: maloney/
+          B2_ENDPOINT: https://s3.eu-central-003.backblazeb2.com
+          B2_REGION: eu-central-003
+        run: |
+          python tools/build_private_audio_manifest_from_b2.py \
+            --episodes episodes.json \
+            --output private-audio.json
+
+      - name: Änderungen speichern
+        run: |
+          if git diff --quiet -- private-audio.json; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add private-audio.json
+          git commit -m "Update private Maloney audio manifest"
+          git push
