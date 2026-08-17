@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-10T22:16:40.321660+00:00",
+  "generatedAt": "2026-08-17T06:05:14.241877+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
-  "audioCount": 52,
+  "audioCount": 53,
   "episodes": [
     {
       "number": null,
@@ -2181,7 +2181,13 @@
       "firstYear": 1999,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item216",
       "number": 216,
-      "id": "pm-216-der-teddybar"
+      "id": "pm-216-der-teddybar",
+      "assetId": "aa036563-9d52-3a0f-b643-f4a359515f64",
+      "airDate": "2026-08-16",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/07/Maloney_radio_AUDI20260816_NR_0013_44f456c4f4a34d41a1f9a7b88609c79b.mp3",
+      "validTo": "2027-08-16T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-teddybar?id=aa036563-9d52-3a0f-b643-f4a359515f64",
+      "audioAvailable": true
     },
     {
       "title": "Der Schlüssel",
@@ -2513,11 +2519,7 @@
       "firstYear": 2001,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item248",
       "number": 248,
-      "id": "pm-248-der-fotograf",
-      "assetId": "e446870f-70c4-4763-8342-4f5f38c0908c",
-      "airDate": "2022-01-09",
-      "srfUrl": "https://www.srf.ch/audio/maloney/der-fotograf?id=e446870f-70c4-4763-8342-4f5f38c0908c",
-      "audioAvailable": false
+      "id": "pm-248-der-fotograf"
     },
     {
       "title": "Der rote Rucksack",
