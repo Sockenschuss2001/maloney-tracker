@@ -2,8 +2,8 @@
   "provider": "backblaze-b2-via-vercel",
   "bucket": "maloney-audio",
   "b2Prefix": "maloney/",
-  "count": 4,
-  "sourceObjectCount": 4,
+  "count": 8,
+  "sourceObjectCount": 8,
   "entries": {
     "pm-103-dunkle-geschafte": {
       "objectKey": "maloney/103 - Dunkle Geschäfte.mp3",
@@ -13,6 +13,22 @@
       "size": 29473155,
       "lastModified": "2026-08-17T19:48:41.029000+00:00"
     },
+    "pm-307-der-letzte-deal": {
+      "objectKey": "maloney/307 - Der letzte Deal.mp3",
+      "filename": "307 - Der letzte Deal.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25157425,
+      "lastModified": "2026-08-17T21:39:31.078000+00:00"
+    },
+    "pm-005-playback": {
+      "objectKey": "maloney/5 - Playback.mp3",
+      "filename": "5 - Playback.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 16004629,
+      "lastModified": "2026-08-17T21:39:32.706000+00:00"
+    },
     "pm-074-heisse-tage": {
       "objectKey": "maloney/74 - Heisse Tage.mp3",
       "filename": "74 - Heisse Tage.mp3",
@@ -20,6 +36,22 @@
       "confidence": 1.0,
       "size": 19787963,
       "lastModified": "2026-08-17T21:04:41.657000+00:00"
+    },
+    "pm-087-druckbuchstaben": {
+      "objectKey": "maloney/87 - Druckbuchstaben.mp3",
+      "filename": "87 - Druckbuchstaben.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 21677107,
+      "lastModified": "2026-08-17T21:39:34.221000+00:00"
+    },
+    "pm-095-der-goldfisch": {
+      "objectKey": "maloney/95 - Der Goldfisch.mp3",
+      "filename": "95 - Der Goldfisch.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 8938649,
+      "lastModified": "2026-08-17T21:39:29.366000+00:00"
     },
     "pm-096-falschungen": {
       "objectKey": "maloney/96 - Fälschungen.mp3",
@@ -47,6 +79,22 @@
       "size": 29473155,
       "lastModified": "2026-08-17T19:48:41.029000+00:00"
     },
+    "307": {
+      "objectKey": "maloney/307 - Der letzte Deal.mp3",
+      "filename": "307 - Der letzte Deal.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25157425,
+      "lastModified": "2026-08-17T21:39:31.078000+00:00"
+    },
+    "5": {
+      "objectKey": "maloney/5 - Playback.mp3",
+      "filename": "5 - Playback.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 16004629,
+      "lastModified": "2026-08-17T21:39:32.706000+00:00"
+    },
     "74": {
       "objectKey": "maloney/74 - Heisse Tage.mp3",
       "filename": "74 - Heisse Tage.mp3",
@@ -54,6 +102,22 @@
       "confidence": 1.0,
       "size": 19787963,
       "lastModified": "2026-08-17T21:04:41.657000+00:00"
+    },
+    "87": {
+      "objectKey": "maloney/87 - Druckbuchstaben.mp3",
+      "filename": "87 - Druckbuchstaben.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 21677107,
+      "lastModified": "2026-08-17T21:39:34.221000+00:00"
+    },
+    "95": {
+      "objectKey": "maloney/95 - Der Goldfisch.mp3",
+      "filename": "95 - Der Goldfisch.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 8938649,
+      "lastModified": "2026-08-17T21:39:29.366000+00:00"
     },
     "96": {
       "objectKey": "maloney/96 - Fälschungen.mp3",
