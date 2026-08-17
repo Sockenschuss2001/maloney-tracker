@@ -1,11 +1,78 @@
 {
   "provider": "backblaze-b2-via-vercel",
-  "entries": {},
+  "bucket": "maloney-audio",
+  "b2Prefix": "maloney/",
+  "count": 4,
+  "sourceObjectCount": 4,
+  "entries": {
+    "pm-103-dunkle-geschafte": {
+      "objectKey": "maloney/103 - Dunkle Geschäfte.mp3",
+      "filename": "103 - Dunkle Geschäfte.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 29473155,
+      "lastModified": "2026-08-17T19:48:41.029000+00:00"
+    },
+    "pm-074-heisse-tage": {
+      "objectKey": "maloney/74 - Heisse Tage.mp3",
+      "filename": "74 - Heisse Tage.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 19787963,
+      "lastModified": "2026-08-17T21:04:41.657000+00:00"
+    },
+    "pm-096-falschungen": {
+      "objectKey": "maloney/96 - Fälschungen.mp3",
+      "filename": "96 - Fälschungen.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23330622,
+      "lastModified": "2026-08-17T21:04:12.052000+00:00"
+    },
+    "pm-099-durch-dick-und-dunn": {
+      "objectKey": "maloney/99 - Durch dick und dünn.mp3",
+      "filename": "99 - Durch dick und dünn.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 21090350,
+      "lastModified": "2026-08-17T21:04:13.902000+00:00"
+    }
+  },
   "byNumber": {
     "103": {
       "objectKey": "maloney/103 - Dunkle Geschäfte.mp3",
       "filename": "103 - Dunkle Geschäfte.mp3",
-      "label": "Privates Audio"
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 29473155,
+      "lastModified": "2026-08-17T19:48:41.029000+00:00"
+    },
+    "74": {
+      "objectKey": "maloney/74 - Heisse Tage.mp3",
+      "filename": "74 - Heisse Tage.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 19787963,
+      "lastModified": "2026-08-17T21:04:41.657000+00:00"
+    },
+    "96": {
+      "objectKey": "maloney/96 - Fälschungen.mp3",
+      "filename": "96 - Fälschungen.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23330622,
+      "lastModified": "2026-08-17T21:04:12.052000+00:00"
+    },
+    "99": {
+      "objectKey": "maloney/99 - Durch dick und dünn.mp3",
+      "filename": "99 - Durch dick und dünn.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 21090350,
+      "lastModified": "2026-08-17T21:04:13.902000+00:00"
     }
-  }
+  },
+  "unmatched": [],
+  "ambiguous": [],
+  "duplicates": []
 }
