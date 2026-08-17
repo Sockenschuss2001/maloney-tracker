@@ -2,6 +2,18 @@
   "provider": "backblaze-b2-via-vercel",
   "entries": {},
   "byNumber": {
+    "74": {
+      "objectKey": "maloney/74 - Heisse Tage.mp3",
+      "filename": "74 - Heisse Tage.mp3",
+      "label": "Privates Audio"
+    }
+  }
+}
+
+{
+  "provider": "backblaze-b2-via-vercel",
+  "entries": {},
+  "byNumber": {
     "103": {
       "objectKey": "maloney/103 - Dunkle Geschäfte.mp3",
       "filename": "103 - Dunkle Geschäfte.mp3",
