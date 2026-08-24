@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T06:05:14.241877+00:00",
+  "generatedAt": "2026-08-24T06:09:09.681461+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -2739,7 +2739,13 @@
       "firstYear": 2004,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item268",
       "number": 268,
-      "id": "pm-268-der-ausserirdische"
+      "id": "pm-268-der-ausserirdische",
+      "assetId": "db8287c3-e892-3ccd-919c-303ee1e285e1",
+      "airDate": "2026-08-23",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/07/Maloney_radio_AUDI20260823_NR_0009_af2c0a4555c0495b8eb4634764ec1374.mp3",
+      "validTo": "2027-08-23T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-ausserirdische?id=db8287c3-e892-3ccd-919c-303ee1e285e1",
+      "audioAvailable": true
     },
     {
       "title": "Geboren am 1. August",
@@ -3037,11 +3043,7 @@
       "firstYear": 2007,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item296",
       "number": 296,
-      "id": "pm-296-die-gestohlene-identitat",
-      "assetId": "3e9b00af-3b65-4f8c-9598-755697e8c224",
-      "airDate": "2022-01-16",
-      "srfUrl": "https://www.srf.ch/audio/maloney/die-gestohlene-identitat?id=3e9b00af-3b65-4f8c-9598-755697e8c224",
-      "audioAvailable": false
+      "id": "pm-296-die-gestohlene-identitat"
     },
     {
       "title": "Die wilde Drei",
@@ -3984,10 +3986,8 @@
       "id": "pm-378-der-schlussel-zum-erfolg",
       "assetId": "b0b67752-33dd-38fd-8ba5-b249769abe5b",
       "airDate": "2025-08-17",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250817_NR_0007_29c4889c0ff5470f99565983646b89b7.mp3",
-      "validTo": "2026-08-17T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/der-schlussel-zum-erfolg?id=b0b67752-33dd-38fd-8ba5-b249769abe5b",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Die Drohne",
