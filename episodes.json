@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:09:09.681461+00:00",
+  "generatedAt": "2026-08-31T04:35:02.884262+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -748,10 +748,8 @@
       "id": "pm-083-susse-geheimnisse",
       "assetId": "be43ef85-bf54-3467-b22b-db0fe2fe68b7",
       "airDate": "2025-08-24",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250824_NR_0006_816a4176c5604738a966eefb2f28dfd1.mp3",
-      "validTo": "2026-08-24T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/susse-geheimnisse?id=be43ef85-bf54-3467-b22b-db0fe2fe68b7",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Stein der Weisen",
@@ -3479,7 +3477,13 @@
       "firstYear": 2010,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item333",
       "number": 333,
-      "id": "pm-333-jugendsunden"
+      "id": "pm-333-jugendsunden",
+      "assetId": "081ba473-9477-33d4-a5d0-ff306c18d7da",
+      "airDate": "2026-08-30",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/07/Maloney_radio_AUDI20260830_NR_0007_ebd395cbf2e14ea89c351880606e46d5.mp3",
+      "validTo": "2027-08-30T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/jugendsunden?id=081ba473-9477-33d4-a5d0-ff306c18d7da",
+      "audioAvailable": true
     },
     {
       "title": "Phantomschmerz",
@@ -4060,12 +4064,12 @@
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item384",
       "number": 384,
       "id": "pm-384-eine-seltsame-erpressung",
-      "assetId": "50511f51-744a-46fd-9cec-d303f38d938a",
-      "airDate": "2022-01-23",
+      "assetId": "52da7ab1-2f58-3205-b78e-509ed31e952a",
+      "airDate": "2026-05-31",
       "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260531_NR_0001_e0068745e9334571b563814d5579a43a.mp3",
       "validTo": "2027-05-31T11:10:00+02:00",
-      "srfUrl": "https://www.srf.ch/audio/maloney/eine-seltsame-erpressung?id=50511f51-744a-46fd-9cec-d303f38d938a",
-      "audioAvailable": false
+      "srfUrl": "https://www.srf.ch/audio/maloney/eine-seltsame-erpressung?id=52da7ab1-2f58-3205-b78e-509ed31e952a",
+      "audioAvailable": true
     },
     {
       "title": "Paranoia",
