@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:35:02.884262+00:00",
+  "generatedAt": "2026-09-07T04:41:54.749489+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -1662,6 +1662,8 @@
       "id": "pm-172-die-agenda",
       "assetId": "3ee86c74-3b1e-4d7a-b60f-223ed7912ef1",
       "airDate": "2022-06-12",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/08/Maloney_radio_AUDI20260906_NR_0005_d2e27f3aefe346b8b444245e9f87fbd4.mp3",
+      "validTo": "2027-09-06T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-agenda?id=3ee86c74-3b1e-4d7a-b60f-223ed7912ef1",
       "audioAvailable": false
     },
@@ -1686,10 +1688,8 @@
       "id": "pm-174-die-bedrohung",
       "assetId": "376d6621-9ea4-3c81-a0a8-4158eca629a5",
       "airDate": "2025-08-31",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250831_NR_0006_b07bf7c32ba14a729c5bd478fd152529.mp3",
-      "validTo": "2026-08-31T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-bedrohung?id=376d6621-9ea4-3c81-a0a8-4158eca629a5",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Mord im Theater",
@@ -3049,11 +3049,7 @@
       "firstYear": 2007,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item297",
       "number": 297,
-      "id": "pm-297-die-wilde-drei",
-      "assetId": "8a35909b-6282-4d28-ade8-f90bc1827627",
-      "airDate": "2022-01-30",
-      "srfUrl": "https://www.srf.ch/audio/maloney/die-wilde-drei?id=8a35909b-6282-4d28-ade8-f90bc1827627",
-      "audioAvailable": false
+      "id": "pm-297-die-wilde-drei"
     },
     {
       "title": "Die rote Lokomotive",
