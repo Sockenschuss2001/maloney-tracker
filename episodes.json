@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T04:41:54.749489+00:00",
+  "generatedAt": "2026-09-14T04:41:37.845945+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -1279,11 +1279,7 @@
       "firstYear": 1995,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item140",
       "number": 140,
-      "id": "pm-140-der-ball-ist-rund",
-      "assetId": "01af195d-ef42-4cc5-8b2c-2200c104cb3f",
-      "airDate": "2022-02-06",
-      "srfUrl": "https://www.srf.ch/audio/maloney/der-ball-ist-rund?id=01af195d-ef42-4cc5-8b2c-2200c104cb3f",
-      "audioAvailable": false
+      "id": "pm-140-der-ball-ist-rund"
     },
     {
       "title": "Rollenspiele",
@@ -2062,10 +2058,8 @@
       "id": "pm-207-das-skelett",
       "assetId": "4c2e2d85-982d-3cee-851c-86cf6ec40456",
       "airDate": "2025-09-07",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250907_NR_0004_515822e2ff844e419fe1cc1c7ca08c3c.mp3",
-      "validTo": "2026-09-07T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/das-skelett?id=4c2e2d85-982d-3cee-851c-86cf6ec40456",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Tiefdruckgebiete",
@@ -4104,6 +4098,8 @@
       "id": "pm-387-alles-unter-kontrolle",
       "assetId": "c3106480-51c6-42a1-8c97-58f68a6c8eef",
       "airDate": "2022-05-15",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/08/Maloney_radio_AUDI20260913_NR_0005_7e16def31f8e4ca9813ec5108baeff6d.mp3",
+      "validTo": "2027-09-13T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/alles-unter-kontrolle?id=c3106480-51c6-42a1-8c97-58f68a6c8eef",
       "audioAvailable": false
     },
