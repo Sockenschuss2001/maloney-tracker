@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-14T04:41:37.845945+00:00",
+  "generatedAt": "2026-09-21T10:09:20.424835+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
-  "audioCount": 53,
+  "audioCount": 52,
   "episodes": [
     {
       "number": null,
@@ -1207,7 +1207,13 @@
       "firstYear": 1995,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item131",
       "number": 131,
-      "id": "pm-131-mord-nach-plan"
+      "id": "pm-131-mord-nach-plan",
+      "assetId": "9981873a-f66d-3fc9-8977-f34aabe64b73",
+      "airDate": "2026-09-20",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/08/Maloney_radio_AUDI20260920_NR_0005_8fc93067a8544942aced9dc7d78390d3.mp3",
+      "validTo": "2027-09-20T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/mord-nach-plan?id=9981873a-f66d-3fc9-8977-f34aabe64b73",
+      "audioAvailable": true
     },
     {
       "title": "Der Weg nach oben",
@@ -1915,11 +1921,7 @@
       "firstYear": 1998,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item195",
       "number": 195,
-      "id": "pm-195-trickdiebe",
-      "assetId": "b81050d6-75ba-494a-89bc-8a56fe494d1d",
-      "airDate": "2022-02-13",
-      "srfUrl": "https://www.srf.ch/audio/maloney/trickdiebe?id=b81050d6-75ba-494a-89bc-8a56fe494d1d",
-      "audioAvailable": false
+      "id": "pm-195-trickdiebe"
     },
     {
       "title": "Die Abseitsfalle",
@@ -2070,10 +2072,8 @@
       "id": "pm-208-tiefdruckgebiete",
       "assetId": "11c1a06f-04e3-3972-9127-7288a63c5ac1",
       "airDate": "2025-09-21",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250921_NR_0002_822e11824d1a4203a21172bc6db8ec9c.mp3",
-      "validTo": "2026-09-21T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/tiefdruckgebiete?id=11c1a06f-04e3-3972-9127-7288a63c5ac1",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Autodieb",
@@ -3326,10 +3326,8 @@
       "id": "pm-321-auf-messers-schneide",
       "assetId": "0fde9de7-6ef7-33b9-ac13-a4eb9366a1e0",
       "airDate": "2025-09-14",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250914_NR_0002_730c64e2f0d1439c90176853b0281e55.mp3",
-      "validTo": "2026-09-14T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/auf-messers-schneide?id=0fde9de7-6ef7-33b9-ac13-a4eb9366a1e0",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Die Stimme",
