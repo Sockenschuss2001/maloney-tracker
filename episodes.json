@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:09:20.424835+00:00",
+  "generatedAt": "2026-09-28T11:08:33.748501+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -2655,7 +2655,13 @@
       "firstYear": 2003,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item261",
       "number": 261,
-      "id": "pm-261-der-mann-auf-der-brucke"
+      "id": "pm-261-der-mann-auf-der-brucke",
+      "assetId": "841b08a8-ad09-3b27-b4a3-21927fb5751f",
+      "airDate": "2026-09-27",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/08/Maloney_radio_AUDI20260927_NR_0005_5bee86cd12db4dd2b61ff3565f274bae.mp3",
+      "validTo": "2027-09-27T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-mann-auf-der-brucke?id=841b08a8-ad09-3b27-b4a3-21927fb5751f",
+      "audioAvailable": true
     },
     {
       "title": "Die Tankstelle",
@@ -3603,11 +3609,7 @@
       "firstYear": 2012,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item347",
       "number": 347,
-      "id": "pm-347-das-alte-haus",
-      "assetId": "8f3e6a58-e824-441d-8609-cd6ef83dea62",
-      "airDate": "2022-02-20",
-      "srfUrl": "https://www.srf.ch/audio/maloney/das-alte-haus?id=8f3e6a58-e824-441d-8609-cd6ef83dea62",
-      "audioAvailable": false
+      "id": "pm-347-das-alte-haus"
     },
     {
       "title": "Das Schneeballsystem",
@@ -3990,10 +3992,8 @@
       "id": "pm-379-die-drohne",
       "assetId": "ae46b617-cf34-35e4-ab21-f4b5cf1d8715",
       "airDate": "2025-09-28",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250928_NR_0003_6f2f030b82284eebb6495beb5dd9b632.mp3",
-      "validTo": "2026-09-28T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-drohne?id=ae46b617-cf34-35e4-ab21-f4b5cf1d8715",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Die perfekte Mischung",
