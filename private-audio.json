@@ -2,8 +2,8 @@
   "provider": "backblaze-b2-via-vercel",
   "bucket": "maloney-audio",
   "b2Prefix": "maloney/",
-  "count": 8,
-  "sourceObjectCount": 8,
+  "count": 19,
+  "sourceObjectCount": 20,
   "entries": {
     "pm-103-dunkle-geschafte": {
       "objectKey": "maloney/103 - Dunkle Geschäfte.mp3",
@@ -68,6 +68,94 @@
       "confidence": 1.0,
       "size": 21090350,
       "lastModified": "2026-08-17T21:04:13.902000+00:00"
+    },
+    "pm-108-aus-heiterem-himmel": {
+      "objectKey": "maloney/Aus heiterem Himmel.mp3",
+      "filename": "Aus heiterem Himmel.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23481079,
+      "lastModified": "2026-10-05T19:10:27.360000+00:00"
+    },
+    "pm-314-das-passwort": {
+      "objectKey": "maloney/Das Passwort.mp3",
+      "filename": "Das Passwort.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 26243236,
+      "lastModified": "2026-10-05T19:10:09.008000+00:00"
+    },
+    "pm-106-der-handler": {
+      "objectKey": "maloney/Der Handler.mp3",
+      "filename": "Der Handler.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 22897710,
+      "lastModified": "2026-10-05T19:16:43.042000+00:00"
+    },
+    "pm-310-der-koffer-im-schnee": {
+      "objectKey": "maloney/Der Koffer im Schnee.mp3",
+      "filename": "Der Koffer im Schnee.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25482711,
+      "lastModified": "2026-10-05T19:10:21.375000+00:00"
+    },
+    "pm-316-der-besondere-tag": {
+      "objectKey": "maloney/Der besondere Tag.mp3",
+      "filename": "Der besondere Tag.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 36593926,
+      "lastModified": "2026-10-05T19:10:25.378000+00:00"
+    },
+    "pm-098-die-handtasche": {
+      "objectKey": "maloney/Die Handtasche.mp3",
+      "filename": "Die Handtasche.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 31125766,
+      "lastModified": "2026-10-05T19:16:40.276000+00:00"
+    },
+    "pm-315-die-blaue-jacke": {
+      "objectKey": "maloney/Die blaue Jacke.mp3",
+      "filename": "Die blaue Jacke.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 24492778,
+      "lastModified": "2026-10-05T19:11:48.116000+00:00"
+    },
+    "pm-317-die-eiserne-reserve": {
+      "objectKey": "maloney/Die eiserne Reserve.mp3",
+      "filename": "Die eiserne Reserve.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25097598,
+      "lastModified": "2026-10-05T19:16:49.499000+00:00"
+    },
+    "pm-313-im-tiefsten-mittelalter": {
+      "objectKey": "maloney/Im tiefsten Mittelalter.mp3",
+      "filename": "Im tiefsten Mittelalter.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 30266647,
+      "lastModified": "2026-10-05T19:16:47.514000+00:00"
+    },
+    "pm-332-schlechtestiming": {
+      "objectKey": "maloney/Schlechtes Timing.mp3",
+      "filename": "Schlechtes Timing.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 24912686,
+      "lastModified": "2026-10-05T19:10:12.939000+00:00"
+    },
+    "pm-101-todliche-ausstellung": {
+      "objectKey": "maloney/Todliche Ausstellung.mp3",
+      "filename": "Todliche Ausstellung.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23810706,
+      "lastModified": "2026-10-05T19:12:11.558000+00:00"
     }
   },
   "byNumber": {
@@ -134,9 +222,103 @@
       "confidence": 1.0,
       "size": 21090350,
       "lastModified": "2026-08-17T21:04:13.902000+00:00"
+    },
+    "108": {
+      "objectKey": "maloney/Aus heiterem Himmel.mp3",
+      "filename": "Aus heiterem Himmel.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23481079,
+      "lastModified": "2026-10-05T19:10:27.360000+00:00"
+    },
+    "314": {
+      "objectKey": "maloney/Das Passwort.mp3",
+      "filename": "Das Passwort.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 26243236,
+      "lastModified": "2026-10-05T19:10:09.008000+00:00"
+    },
+    "106": {
+      "objectKey": "maloney/Der Handler.mp3",
+      "filename": "Der Handler.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 22897710,
+      "lastModified": "2026-10-05T19:16:43.042000+00:00"
+    },
+    "310": {
+      "objectKey": "maloney/Der Koffer im Schnee.mp3",
+      "filename": "Der Koffer im Schnee.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25482711,
+      "lastModified": "2026-10-05T19:10:21.375000+00:00"
+    },
+    "316": {
+      "objectKey": "maloney/Der besondere Tag.mp3",
+      "filename": "Der besondere Tag.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 36593926,
+      "lastModified": "2026-10-05T19:10:25.378000+00:00"
+    },
+    "98": {
+      "objectKey": "maloney/Die Handtasche.mp3",
+      "filename": "Die Handtasche.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 31125766,
+      "lastModified": "2026-10-05T19:16:40.276000+00:00"
+    },
+    "315": {
+      "objectKey": "maloney/Die blaue Jacke.mp3",
+      "filename": "Die blaue Jacke.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 24492778,
+      "lastModified": "2026-10-05T19:11:48.116000+00:00"
+    },
+    "317": {
+      "objectKey": "maloney/Die eiserne Reserve.mp3",
+      "filename": "Die eiserne Reserve.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 25097598,
+      "lastModified": "2026-10-05T19:16:49.499000+00:00"
+    },
+    "313": {
+      "objectKey": "maloney/Im tiefsten Mittelalter.mp3",
+      "filename": "Im tiefsten Mittelalter.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 30266647,
+      "lastModified": "2026-10-05T19:16:47.514000+00:00"
+    },
+    "332": {
+      "objectKey": "maloney/Schlechtes Timing.mp3",
+      "filename": "Schlechtes Timing.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 24912686,
+      "lastModified": "2026-10-05T19:10:12.939000+00:00"
+    },
+    "101": {
+      "objectKey": "maloney/Todliche Ausstellung.mp3",
+      "filename": "Todliche Ausstellung.mp3",
+      "label": "Privates Audio",
+      "confidence": 1.0,
+      "size": 23810706,
+      "lastModified": "2026-10-05T19:12:11.558000+00:00"
     }
   },
   "unmatched": [],
   "ambiguous": [],
-  "duplicates": []
+  "duplicates": [
+    {
+      "number": 307,
+      "kept": "maloney/307 - Der letzte Deal.mp3",
+      "ignored": "maloney/Der letzte Deal.mp3"
+    }
+  ]
 }
