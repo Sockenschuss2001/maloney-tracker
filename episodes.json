@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:08:33.748501+00:00",
+  "generatedAt": "2026-10-05T18:55:49.299743+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -990,10 +990,8 @@
       "id": "pm-107-die-blaue-tasche",
       "assetId": "4d3a8e7c-9b09-32bc-9074-d625891be91e",
       "airDate": "2025-10-05",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251005_NR_0028_460835be0fd44367b9a4a103484790bd.mp3",
-      "validTo": "2026-10-05T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-blaue-tasche?id=4d3a8e7c-9b09-32bc-9074-d625891be91e",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Aus heiterem Himmel",
@@ -2195,7 +2193,13 @@
       "firstYear": 1999,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item218",
       "number": 218,
-      "id": "pm-218-der-klabautermann"
+      "id": "pm-218-der-klabautermann",
+      "assetId": "ef8bed0e-d20f-385f-9a1a-cdac79ad4827",
+      "airDate": "2026-10-04",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/09/Maloney_radio_AUDI20261004_NR_0002_f133b417cb8e4645ad59b5ec4656c389.mp3",
+      "validTo": "2027-10-04T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-klabautermann?id=ef8bed0e-d20f-385f-9a1a-cdac79ad4827",
+      "audioAvailable": true
     },
     {
       "title": "Der Bestseller",
@@ -4066,12 +4070,12 @@
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item385",
       "number": 385,
       "id": "pm-385-paranoia",
-      "assetId": "63fff4e3-a0c7-4076-b851-fb9ffe505c00",
-      "airDate": "2022-02-27",
+      "assetId": "b42f5915-c645-3cd3-8338-c26bd02addd9",
+      "airDate": "2026-06-21",
       "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260621_NR_0004_5c970ad474374b3a83c552682fc1014f.mp3",
       "validTo": "2027-06-21T11:10:00+02:00",
-      "srfUrl": "https://www.srf.ch/audio/maloney/paranoia?id=63fff4e3-a0c7-4076-b851-fb9ffe505c00",
-      "audioAvailable": false
+      "srfUrl": "https://www.srf.ch/audio/maloney/paranoia?id=b42f5915-c645-3cd3-8338-c26bd02addd9",
+      "audioAvailable": true
     },
     {
       "title": "Superfood",
