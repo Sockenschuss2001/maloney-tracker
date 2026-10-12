@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:55:49.299743+00:00",
+  "generatedAt": "2026-10-12T12:18:51.650250+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -1291,11 +1291,7 @@
       "firstYear": 1995,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item141",
       "number": 141,
-      "id": "pm-141-rollenspiele",
-      "assetId": "9b116b4b-69ef-4488-9f58-6154ff6b0442",
-      "airDate": "2022-03-06",
-      "srfUrl": "https://www.srf.ch/audio/maloney/rollenspiele?id=9b116b4b-69ef-4488-9f58-6154ff6b0442",
-      "audioAvailable": false
+      "id": "pm-141-rollenspiele"
     },
     {
       "title": "Das Rattennest",
@@ -2082,10 +2078,8 @@
       "id": "pm-209-der-autodieb",
       "assetId": "d03f3725-a062-3052-a06c-d129ed73a1bd",
       "airDate": "2025-10-12",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251012_NR_0046_9d9584d0e8834f16824047efb931b65a.mp3",
-      "validTo": "2026-10-12T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/der-autodieb?id=d03f3725-a062-3052-a06c-d129ed73a1bd",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Vorleser",
@@ -3504,6 +3498,8 @@
       "id": "pm-335-das-tattoo",
       "assetId": "ab760cd8-8b31-4e5a-8a50-e7319322b124",
       "airDate": "2022-11-20",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/09/Maloney_radio_AUDI20261011_NR_0002_793bd3ac8c9c4f7996c17376ed52ee5a.mp3",
+      "validTo": "2027-10-11T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/das-tattoo?id=ab760cd8-8b31-4e5a-8a50-e7319322b124",
       "audioAvailable": false
     },
