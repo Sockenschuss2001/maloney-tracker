@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T12:18:51.650250+00:00",
+  "generatedAt": "2026-10-19T10:09:37.735979+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -769,7 +769,13 @@
       "firstYear": 1992,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item85",
       "number": 85,
-      "id": "pm-085-die-armbanduhr"
+      "id": "pm-085-die-armbanduhr",
+      "assetId": "c55e3460-56c3-3fc9-b46d-94519fafd3b5",
+      "airDate": "2026-10-18",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261018_NR_0002_1ce04560b8b74813bac39993e8049992.mp3",
+      "validTo": "2027-10-18T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/die-armbanduhr?id=c55e3460-56c3-3fc9-b46d-94519fafd3b5",
+      "audioAvailable": true
     },
     {
       "title": "Der Mörderhai",
@@ -1747,11 +1753,7 @@
       "firstYear": 1997,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item179",
       "number": 179,
-      "id": "pm-179-die-beute",
-      "assetId": "b92d5d2d-4f7e-4707-8241-7781e2a269ba",
-      "airDate": "2022-03-13",
-      "srfUrl": "https://www.srf.ch/audio/maloney/die-beute?id=b92d5d2d-4f7e-4707-8241-7781e2a269ba",
-      "audioAvailable": false
+      "id": "pm-179-die-beute"
     },
     {
       "title": "Der Geizhals",
@@ -3342,10 +3344,8 @@
       "id": "pm-322-die-stimme",
       "assetId": "a05b9cc7-16ee-3bce-abdc-edd48174f28d",
       "airDate": "2025-10-19",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251019_NR_0007_b8c03e36e4244d45927cf6a01bb4dc90.mp3",
-      "validTo": "2026-10-19T11:10:00+02:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-stimme?id=a05b9cc7-16ee-3bce-abdc-edd48174f28d",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Im Schneckentempo",
