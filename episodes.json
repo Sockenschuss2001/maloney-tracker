@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:09:37.735979+00:00",
+  "generatedAt": "2026-10-26T10:23:32.559100+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -2377,7 +2377,13 @@
       "firstYear": 2000,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item235",
       "number": 235,
-      "id": "pm-235-flugangst"
+      "id": "pm-235-flugangst",
+      "assetId": "034be78c-f9a4-3649-b4aa-eeb49edc36b2",
+      "airDate": "2026-10-25",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261025_NR_0003_27bde052339a4037acda4fb573281ed3.mp3",
+      "validTo": "2027-10-25T11:10:00+02:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/flugangst?id=034be78c-f9a4-3649-b4aa-eeb49edc36b2",
+      "audioAvailable": true
     },
     {
       "title": "Atemlos",
@@ -4004,10 +4010,8 @@
       "id": "pm-380-die-perfekte-mischung",
       "assetId": "171ef67a-3805-34b3-bf0a-60e1514ad04f",
       "airDate": "2025-10-26",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251026_NR_0005_a842c43d33f3406994699217fc1e07b6.mp3",
-      "validTo": "2026-10-26T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-perfekte-mischung?id=171ef67a-3805-34b3-bf0a-60e1514ad04f",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Gesundheit",
@@ -4080,12 +4084,12 @@
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item386",
       "number": 386,
       "id": "pm-386-superfood",
-      "assetId": "6b4dea17-ec22-4761-be92-ce2fc9458d34",
-      "airDate": "2022-03-20",
+      "assetId": "aec0b1b2-f05f-3d21-8ef4-0da02878fa2d",
+      "airDate": "2026-07-26",
       "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260726_NR_0003_25648c96cd194c1585cd9b0f1fc7bb5d.mp3",
       "validTo": "2027-07-26T11:10:00+02:00",
-      "srfUrl": "https://www.srf.ch/audio/maloney/superfood?id=6b4dea17-ec22-4761-be92-ce2fc9458d34",
-      "audioAvailable": false
+      "srfUrl": "https://www.srf.ch/audio/maloney/superfood?id=aec0b1b2-f05f-3d21-8ef4-0da02878fa2d",
+      "audioAvailable": true
     },
     {
       "title": "Alles unter Kontrolle",
