@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:23:32.559100+00:00",
+  "generatedAt": "2026-11-02T12:45:53.609381+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -783,7 +783,13 @@
       "firstYear": 1992,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item86",
       "number": 86,
-      "id": "pm-086-der-morderhai"
+      "id": "pm-086-der-morderhai",
+      "assetId": "ecb5aa32-f498-37a0-a2da-79040f3a8dcf",
+      "airDate": "2026-11-01",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261101_NR_0001_1b1fbbabe3c44dcd8163e57ba3abdb13.mp3",
+      "validTo": "2027-11-01T11:10:00+01:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-morderhai?id=ecb5aa32-f498-37a0-a2da-79040f3a8dcf",
+      "audioAvailable": true
     },
     {
       "title": "Druckbuchstaben",
@@ -1558,10 +1564,8 @@
       "id": "pm-163-der-mann-im-hotel",
       "assetId": "f25bebde-d6d9-39e6-8d8a-52e543074967",
       "airDate": "2025-11-02",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251102_NR_0022_2dc436d264594ea586ac0c4015af82e4.mp3",
-      "validTo": "2026-11-02T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/der-mann-im-hotel?id=f25bebde-d6d9-39e6-8d8a-52e543074967",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Tramkiller",
@@ -3623,11 +3627,7 @@
       "firstYear": 2012,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item348",
       "number": 348,
-      "id": "pm-348-das-schneeballsystem",
-      "assetId": "563b4cab-33b4-4df2-af4e-a6dc8768a6c6",
-      "airDate": "2022-03-27",
-      "srfUrl": "https://www.srf.ch/audio/maloney/das-schneeballsystem?id=563b4cab-33b4-4df2-af4e-a6dc8768a6c6",
-      "audioAvailable": false
+      "id": "pm-348-das-schneeballsystem"
     },
     {
       "title": "Die verschwundene Frau",
