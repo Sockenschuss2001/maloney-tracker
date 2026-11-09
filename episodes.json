@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T12:45:53.609381+00:00",
+  "generatedAt": "2026-11-09T13:12:00.193407+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -609,11 +609,7 @@
       "firstYear": 1992,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item68",
       "number": 68,
-      "id": "pm-068-der-nackte-krieger",
-      "assetId": "0646742a-25b5-41d3-8917-48efad948ee1",
-      "airDate": "2022-04-03",
-      "srfUrl": "https://www.srf.ch/audio/maloney/der-nackte-krieger?id=0646742a-25b5-41d3-8917-48efad948ee1",
-      "audioAvailable": false
+      "id": "pm-068-der-nackte-krieger"
     },
     {
       "title": "Das schwache Herz",
@@ -1812,6 +1808,8 @@
       "id": "pm-184-die-farbtherapie",
       "assetId": "66ad2b67-88ea-4f84-a3f0-bb4952078784",
       "airDate": "2023-11-26",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261108_NR_0002_2f4790607f30435481c8e3b8cbe9e697.mp3",
+      "validTo": "2027-11-08T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-farbtherapie?id=66ad2b67-88ea-4f84-a3f0-bb4952078784",
       "audioAvailable": false
     },
@@ -2096,10 +2094,8 @@
       "id": "pm-210-der-vorleser",
       "assetId": "f6ca3f4f-9125-3e72-ba8c-697c5b546eee",
       "airDate": "2025-11-09",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251109_NR_0025_d3d85c1c8a85497b857e095d4d785fc6.mp3",
-      "validTo": "2026-11-09T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/der-vorleser?id=f6ca3f4f-9125-3e72-ba8c-697c5b546eee",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Die lieben Nachbarn",
