@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:12:00.193407+00:00",
+  "generatedAt": "2026-11-16T13:02:18.261285+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -3015,7 +3015,13 @@
       "firstYear": 2006,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item292",
       "number": 292,
-      "id": "pm-292-der-stromschlag"
+      "id": "pm-292-der-stromschlag",
+      "assetId": "ef82918b-164e-3baf-aed1-b1e2ac311ad0",
+      "airDate": "2026-11-15",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261115_NR_0001_73f955f63dc5415c91528afe57a43b27.mp3",
+      "validTo": "2027-11-15T11:10:00+01:00",
+      "srfUrl": "https://www.srf.ch/audio/maloney/der-stromschlag?id=ef82918b-164e-3baf-aed1-b1e2ac311ad0",
+      "audioAvailable": true
     },
     {
       "title": "Der Spanner",
@@ -3063,11 +3069,7 @@
       "firstYear": 2007,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item298",
       "number": 298,
-      "id": "pm-298-die-rote-lokomotive",
-      "assetId": "40bc92cf-3151-48f2-9686-419bbc276fe2",
-      "airDate": "2022-04-10",
-      "srfUrl": "https://www.srf.ch/audio/maloney/die-rote-lokomotive?id=40bc92cf-3151-48f2-9686-419bbc276fe2",
-      "audioAvailable": false
+      "id": "pm-298-die-rote-lokomotive"
     },
     {
       "title": "Der Aprilscherz",
@@ -4018,10 +4020,8 @@
       "id": "pm-381-gesundheit",
       "assetId": "f9c1ada4-bf39-3988-9dba-412a9b595678",
       "airDate": "2025-11-16",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251116_NR_0007_0c5487fcada14d2085aa8eb2ddb2d1b5.mp3",
-      "validTo": "2026-11-16T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/gesundheit?id=f9c1ada4-bf39-3988-9dba-412a9b595678",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Hilferuf",
