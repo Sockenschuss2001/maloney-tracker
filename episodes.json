@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T13:02:18.261285+00:00",
+  "generatedAt": "2026-11-23T15:08:55.709835+00:00",
   "catalogSource": "https://www.rogergraf.ch/hoerspiele",
   "srfSource": "https://www.srf.ch/audio/maloney",
   "count": 407,
@@ -2354,10 +2354,8 @@
       "id": "pm-233-die-sprengmeister",
       "assetId": "abcc68b3-d9d0-3f70-ab0d-3d7d54e527e7",
       "airDate": "2025-11-23",
-      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251123_NR_0005_5b80f17a3712442c9fb5160e36297de8.mp3",
-      "validTo": "2026-11-23T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/die-sprengmeister?id=abcc68b3-d9d0-3f70-ab0d-3d7d54e527e7",
-      "audioAvailable": true
+      "audioAvailable": false
     },
     {
       "title": "Der Vertrag",
@@ -2365,11 +2363,7 @@
       "firstYear": 2000,
       "archiveUrl": "https://www.rogergraf.ch/hoerspiele#item234",
       "number": 234,
-      "id": "pm-234-der-vertrag",
-      "assetId": "ad4b0338-5a33-4dee-8d2b-9b4208e96b8e",
-      "airDate": "2022-04-17",
-      "srfUrl": "https://www.srf.ch/audio/maloney/der-vertrag?id=ad4b0338-5a33-4dee-8d2b-9b4208e96b8e",
-      "audioAvailable": false
+      "id": "pm-234-der-vertrag"
     },
     {
       "title": "Flugangst",
@@ -4110,6 +4104,8 @@
       "id": "pm-388-der-mann-auf-dem-dach",
       "assetId": "21df3cf8-4f30-4d23-a58a-ccadf544cf01",
       "airDate": "2022-07-03",
+      "audioUrl": "https://download-media.srf.ch/world/audio/Maloney_radio/2026/10/Maloney_radio_AUDI20261122_NR_0001_80960b1eeb714856a87862a6fe05edd7.mp3",
+      "validTo": "2027-11-22T11:10:00+01:00",
       "srfUrl": "https://www.srf.ch/audio/maloney/der-mann-auf-dem-dach?id=21df3cf8-4f30-4d23-a58a-ccadf544cf01",
       "audioAvailable": false
     },
